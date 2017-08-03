@@ -1,9 +1,17 @@
 #include <iostream>
+#include <string>
 
-using namespace std;
+class A
+{
+public:
+    static void writeln(std::string text)
+    {
+        std::cout << text << std::endl;
+    }
+};
 
 int main()
 {
-    cout << "Hello world!" << endl;
+    A::writeln("test");
     return 0;
 }
