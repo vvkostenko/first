@@ -5,25 +5,24 @@ using namespace std;
 class Arithmetic
 {
 private:
-    int a,b;
+    int a[2];
 
 public:
     void numbers()
     {
-        cout << "a = ";
-        cin >> a;
-        cout << "b = ";
-        cin >> b;
+        cout << "mass a = ";
+        for (int i = 0; i < 2; i++)
+            cin >> a[i];
     }
 
     int sum()
     {
-        return a+b;
+       return (a[0] + a[1]);
     }
 
     int multiply()
     {
-        return a*b;
+        return (a[0] * a[1]);
     }
 
 };
@@ -33,4 +32,5 @@ int main ()
     c.numbers();
     cout << "sum = " << c.sum() << endl;
     cout << "multiply = " << c.multiply();
+    return 0;
 }
