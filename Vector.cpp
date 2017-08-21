@@ -24,14 +24,16 @@ int MyVector::setMyVector()
 {
     std:: cout << "array = ";
     for(int i = 0; i < n; i++)
-    std:: cin >> array[i];
+        std:: cin >> array[i];
+    
     return 0;
 }
 
 int MyVector::getMyVector()
 {
     for(int i = 0; i < n; i++)
-    std:: cout << array[i] << " ";
+        std:: cout << array[i] << " ";
+    
     return 0;
 }
 
@@ -40,6 +42,7 @@ int MyVector::sum()
     int s = 0;
     for (int i = 0; i < n; i++)
       s += array[i];
+    
     return s;
 }
 
