@@ -7,13 +7,13 @@ int main ()
 {
     MyVector c;
     c.setMyVector();
-  //  c.getMyVector();
+    //c.getMyVector();
 
     cout << "sum = " << c.sum() << endl;
 
-    MyVector d(5);
+    MyVector d(3);
     d.setMyVector();
-  //  d.getMyVector();
+    //d.getMyVector();
 
     cout << "sum = " << d.sum() << endl;
 

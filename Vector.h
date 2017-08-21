@@ -6,14 +6,14 @@
 class MyVector
 {
 private:
-   int n;
-   int *array;
+    int n;
+    int *array;
 
 public:
     MyVector();
     MyVector(int k);
     ~MyVector();
-   int setMyVector();
+    int setMyVector();
     int getMyVector();
     int sum();
 };
