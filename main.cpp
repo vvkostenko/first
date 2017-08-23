@@ -5,13 +5,13 @@ using namespace std;
 
 int main ()
 {
-    MyVector c;
+    /*MyVector c;
     c.setMyVector();
     //c.getMyVector();
 
-    cout << "sum = " << c.sum() << endl;
+    cout << "sum = " << c.sum() << endl;*/
 
-    MyVector d(3);
+    MyVector d(5);
     d.setMyVector();
     //d.getMyVector();
 
